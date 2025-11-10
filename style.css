@@ -1,0 +1,174 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34c6eb;
+    color: white;
+    padding: 10px 40px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35); 
+}
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 2.5em;
+}
+.second_banner img {
+    margin-left: 31%;
+    width: 40%;
+    height: 340px;
+}
+.Title h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.car-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.car-card:hover {
+    transform: translateY(-12.5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.car-card p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.car-card button {
+    background-color: #34c6eb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-card button:hover {
+    background-color: #0362a7;
+}
+
+.view_more button {
+    background-color: #34c6eb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 50px;
+    margin-left: 39%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.map-section {
+    padding: 40px;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.map-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.map-section h4 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    background-color: #34c6eb;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
