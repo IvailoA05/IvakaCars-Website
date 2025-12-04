@@ -1,3 +1,9 @@
+header  {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,6 +46,16 @@
     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
 }
 
+.this a {
+    color: #f0f714;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: color 0.5s ease, transform 0.5s ease;
+    display: inline-block;
+    text-shadow: 2px 2px 5px #c2b71b;
+}
+
 body {
     margin: 8px 8px 8px 8px;
 }
@@ -51,6 +67,7 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
+
 footer p {
     margin-top: 16px;
     margin-bottom: 16px;
